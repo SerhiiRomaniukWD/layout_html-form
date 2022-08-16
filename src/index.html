@@ -86,26 +86,27 @@
 
       <fieldset class="fieldset-block">
         <legend>An interesting fact about you!</legend>
-        <label for="cats">
-          Do you love cats?
+        Do you love cats?
+        <label for="yes">
           <input
             type="radio"
             id="yes"
             name="cats"
           >
-          <label for="yes">Yes</label>
+          Yes
+        </label>
+        <label for="no">
           <input
             type="radio"
             id="no"
             name="cats"
           >
-          <label for="no">No</label>
+          No
         </label>
         <label class="label" for="color">
           What is your favorite color?
           <input
             type="color"
-            id="color"
             name="color"
           >
         </label>
@@ -119,7 +120,8 @@
         </label>
         <label class="label" for="cars">
           What are your favorite brand of cars?
-          <select name="cars"
+          <select
+            name="cars"
             id="cars"
             required
             multiple>
@@ -150,7 +152,7 @@
         <label class="label" for="rate">
           Would you recommend us?
           <select name="rate" id="rate">
-            <option  value="yes" selected >yes</option>
+            <option value="yes" selected >yes</option>
             <option value="no">no</option>
           </select>
         </label>
