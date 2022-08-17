@@ -3,7 +3,7 @@
   margin-top: 20px;
 }
 
-.fieldset-block > .label:not(:first-of-type) {
+.label {
   padding-top: 10px;
   display: block;
 }
