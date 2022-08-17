@@ -1,15 +1,11 @@
 /* styles go here */
-.fieldset-block {
+.fieldset-block:not(:first-child) {
   margin-top: 20px;
 }
 
-.label {
-  display: block;
+.fieldset-block > .label:not(:first-of-type) {
   padding-top: 10px;
-}
-
-.form-block {
-  margin-top: 20px;
+  display: block;
 }
 
 .button {
